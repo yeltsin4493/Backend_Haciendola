@@ -32,5 +32,5 @@ export class CreateProductDto {
 
   @IsOptional()
   @IsNumber()
-  barcode?: number;
+  barcode?: string;
 }

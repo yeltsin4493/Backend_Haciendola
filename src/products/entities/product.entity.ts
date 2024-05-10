@@ -30,7 +30,7 @@ export class Product {
   compare_price: number;
 
   @Column()
-  barcode: number;
+  barcode: string;
 
   @Column({ type: 'timestamp', default: () => 'CURRENT_TIMESTAMP' })
   createdAt: Date;
